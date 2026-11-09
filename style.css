@@ -27,6 +27,7 @@ button {
     padding: 12px;
     border-radius: 6px;
     border: none;
+    cursor: pointer;
 }
 
 #menu-text {
