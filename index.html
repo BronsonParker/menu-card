@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Menu Card</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <h1>Wake 'N' Bacon Menu Card</h1>
+
+    <form id="menu-form">
+        <label for="menu-input">Paste your menu as JSON</label>
+        <textarea id="menu-input" rows="8"></textarea>
+        <button type="submit">Show Me That Menu!</button>
+    </form>
+
     
+    <p id="count"></p>
+    <p id="menu-text"></p>
+
+
+    <script src="script.js"></script>
 </body>
 </html>

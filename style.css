@@ -1,0 +1,36 @@
+body {
+    background-color: moccasin;
+    font-family:Verdana;
+    max-width: 40rem;
+    margin: 40px auto;
+}
+
+h1 {
+    color: darkred;
+    text-align: center;
+}
+
+form {
+    background-color: ghostwhite;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid, darksalmon, 6px;
+}
+
+textarea {
+    width: 100%;
+}
+
+button {
+    color: darkred;
+    background-color: darksalmon;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+}
+
+#menu-text {
+    white-space: pre-line;
+    background-color: darkred;
+    color: salmon;
+}
