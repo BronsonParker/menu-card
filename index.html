@@ -8,11 +8,16 @@
 </head>
 
 <body>
-    <h1>Wake 'N' Bacon Menu Card</h1>
+    <h1>Wake 'N' Bacon - Menu Card</h1>
 
     <form id="menu-form">
         <label for="menu-input">Paste your menu as JSON</label>
-        <textarea id="menu-input" rows="8"></textarea>
+        <textarea id="menu-input" rows="8">[
+  {"name": "Bacon", "price": 6.35},
+  {"name": "Scrambled Eggs", "price": 4},
+  {"name": "Sunny Side Up", "price": 4.50},
+  {"name": "French Toast", "price": 3.50}
+]</textarea>
         <button type="submit">Show Me That Menu!</button>
     </form>
 
